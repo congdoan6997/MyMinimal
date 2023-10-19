@@ -20,3 +20,12 @@ npm i eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-
 
 > create folders
 
+```
+install mui
+
+npm i @mui/material @emotion/react @emotion/styled
+
+npm i react-helmet-async react-router-dom
+
+npm i framer-motion
+```
