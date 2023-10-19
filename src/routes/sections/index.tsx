@@ -1,0 +1,16 @@
+import {useRoutes } from 'react-router-dom';
+import MainLayout from 'src/layouts/main';
+import HomePage from 'src/pages/home';
+import { mainRoutes } from './main';
+
+export default function SimpleLayout() {
+  return useRoutes([{
+    path:'/',
+    element: (<MainLayout >
+        <HomePage/>
+      </MainLayout>)
+
+  },
+    ...mainRoutes,
+  ])
+}
