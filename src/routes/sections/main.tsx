@@ -8,7 +8,7 @@ export const mainRoutes = [
   {
     element: (
       <MainLayout>
-        <Suspense fallback={<>Loading</>}>
+        <Suspense fallback={<>Home page loading</>}>
           <Outlet />
         </Suspense>
       </MainLayout>

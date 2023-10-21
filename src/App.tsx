@@ -1,7 +1,13 @@
 import Router from 'src/routes/sections';
 
+import ThemeProvider from './theme';
+
 function App() {
-  return <Router />;
+  return (
+    <ThemeProvider>
+      <Router />
+    </ThemeProvider>
+  );
 }
 
 export default App;
