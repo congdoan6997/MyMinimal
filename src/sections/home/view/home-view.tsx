@@ -42,9 +42,9 @@ export default function HomeView() {
         }}
       >
         <Box sx={{ position: 'relative' }}>
-          <StyledPolygon />
+          {/* <StyledPolygon /> */}
           <div>Hello home view</div>
-          <StyledPolygon anchor="bottom" />
+          {/* <StyledPolygon anchor="bottom" /> */}
         </Box>
       </Box>
     </>
