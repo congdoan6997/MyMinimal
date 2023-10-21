@@ -1,5 +1,7 @@
+import Router from 'src/routes/sections';
+
 function App() {
-  return <h1>Hello</h1>;
+  return <Router />;
 }
 
 export default App;
